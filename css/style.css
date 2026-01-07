@@ -205,3 +205,17 @@ footer {
     padding: 60px 24px;
   }
 }
+.book-demo {
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  color: #000;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-demo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(251, 133, 0, 0.4);
+}
